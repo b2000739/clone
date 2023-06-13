@@ -1,0 +1,432 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Verdana';
+}
+@font-face {
+  font-family: 'Verdana';
+  src: url(assets/fonts/Verdana.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Verdana';
+  src: url(assets/fonts/Verdana-Black.ttf);
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'Verdana';
+  src: url(assets/fonts/Verdana-Italic.ttf);
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Verdana';
+  src: url(assets/fonts/Verdana-Bold.ttf);
+  font-weight: 700;
+}
+.register,
+.login {
+  /* Full-width input fields */
+  /* Overwrite default styles of hr */
+  /* Set a style for the submit/register button */
+  /* Add a blue text color to links */
+  /* Set a grey background color and center the text of the "sign in" section */
+}
+.register .container,
+.login .container {
+  padding: 16px;
+}
+.register input[type=text],
+.login input[type=text],
+.register input[type=password],
+.login input[type=password] {
+  width: 100%;
+  padding: 15px 0px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+.register input[type=text]:focus,
+.login input[type=text]:focus,
+.register input[type=password]:focus,
+.login input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.register form,
+.login form {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.register .btn,
+.login .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.register .btn:hover,
+.login .btn:hover {
+  opacity: 1;
+}
+.register a,
+.login a {
+  color: dodgerblue;
+}
+.register .signin,
+.login .signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+header {
+  text-align: left;
+  height: 8em;
+  padding: 2em 5%;
+  background: #2c3e50;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+header div {
+  display: flex;
+  flex-flow: column;
+  color: gold;
+  text-decoration: none;
+  margin-left: 20px;
+}
+header div a {
+  color: inherit;
+  text-decoration: none;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  margin-left: 600px;
+}
+header a:hover {
+  color: black;
+}
+header img {
+  width: 200px;
+}
+header .href {
+  font-weight: bold;
+  font-size: 20pt;
+  color: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0px 17.5px;
+  color: gray;
+}
+.olimp {
+  padding: 0px 100px;
+  /* по вертикали | по горизонтали */
+}
+.olimp h2 {
+  text-align: center;
+  margin: 50px 0;
+}
+.grid {
+  display: grid;
+  grid-gap: 40px 40px;
+  grid-template: repeat(4, 300px) / repeat(5, 300px);
+}
+.test-n {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background: rgba(128, 128, 128, 0.1);
+  border-radius: 0.8rem;
+}
+.test-n h4 {
+  text-align: center;
+}
+.test-n .first {
+  color: #cfb223;
+}
+.test-n p {
+  font-size: 14px;
+  color: #907a0f;
+}
+.test-n a {
+  font-size: 14px;
+  color: #fff;
+  padding: 5px 20px;
+  background: #96C11F;
+  border-radius: 4px;
+  height: auto;
+  border: none;
+  text-transform: none;
+}
+.test-n img {
+  display: flex;
+  justify-content: center;
+  height: 150px;
+}
+.class {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.class h2 {
+  margin: 100px 0px;
+  /* по вертикали | по горизонтали */
+}
+.class .grid {
+  display: flex;
+  flex-flow: wrap;
+  display: grid;
+  grid-gap: 40px 40px;
+  grid-template: repeat(4, 200px) / repeat(3, 470px);
+}
+.class .grid .type {
+  min-width: 400px;
+  display: flex;
+  background: rgba(128, 128, 128, 0.1);
+  border-radius: 0.8rem;
+}
+.class .grid .type .text p {
+  padding-bottom: 20px;
+  width: 300px;
+}
+.class .grid .type a {
+  font-size: 14px;
+  color: #fff;
+  padding: 5px 20px;
+  background: #96C11F;
+  border-radius: 4px;
+  height: auto;
+  border: none;
+  text-transform: none;
+}
+.class .grid .type img {
+  height: 100px;
+}
+.about {
+  background-image: url(assets/class.jpg);
+  background: linear-gradient(101.11deg, rgba(64, 106, 93, 0.8) 48.62%, rgba(137, 169, 87, 0.73) 100%, #96C11F 100%);
+}
+.about .text {
+  width: 80%;
+  display: flex;
+  margin: 0;
+}
+.about .text .key {
+  margin-top: 100px;
+}
+.about .text .key h3 {
+  font-size: 28px;
+  color: #2B2B2B;
+  margin: 0px 0px 25px 25px;
+  /* сверху | справа | снизу | слева */
+}
+.about .text .key li {
+  font-size: 20px;
+  line-height: 28px;
+  color: #2B2B2B;
+  margin-bottom: 25px;
+  list-style-image: url(assets/advantages-list-marker.png);
+  margin-left: 30px;
+}
+.about .text .initial {
+  margin: 0px 100px 150px;
+  /* сверху | горизонтально | снизу */
+}
+.about .text .initial h2 {
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 20px;
+  padding-top: 45px;
+}
+.about .text .initial p {
+  max-width: 600px;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+}
+.n-profile {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+}
+.n-profile .profile {
+  width: 600px;
+  display: flex;
+  background: rgba(128, 128, 128, 0.5);
+  border-radius: 0.8rem;
+  flex-flow: column;
+  align-self: center;
+  padding: 0 25px;
+}
+.n-profile .profile i {
+  color: rgba(43, 43, 43, 0.6);
+}
+.n-profile .profile a {
+  width: 100%;
+  background-color: #2B2B2B;
+  text-align: center;
+  text-transform: none;
+  color: white;
+  padding: 25px;
+  border-radius: 0.8rem;
+  margin: 50px 0 0px;
+  /* по вертикали | по горизонтали */
+}
+.n-profile .profile h2 {
+  font-size: 15pt;
+  color: #fff;
+  margin-bottom: 20px;
+  padding-top: 45px;
+}
+.n-change {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+}
+.n-change .change {
+  width: 500px;
+  display: flex;
+  background: rgba(128, 128, 128, 0.5);
+  border-radius: 0.8rem;
+  flex-flow: column;
+  align-self: center;
+  padding: 25px 25px;
+}
+.n-change .change form {
+  min-width: 400px;
+}
+.n-change .change .btn {
+  padding: 10px;
+  border: none;
+  background-color: #3F51B5;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  width: 300px;
+  margin-left: 80px;
+}
+.n-change .change input {
+  background-color: #fafafa;
+  border: 0;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  transition: 0.3s box-shadow;
+  width: 100%;
+}
+.n-change .change p:first-child {
+  margin: 0;
+}
+.n-change .change p {
+  margin: 20px 0;
+}
+.test-row {
+  margin: 50px;
+  display: grid;
+  grid-template: repeat(2, 300px) / repeat(3, 300px);
+  grid-gap: 25px;
+}
+.test-row .test-n {
+  width: 300px;
+}
+.fully-n {
+  display: flex;
+}
+.fully-n .fully {
+  margin: 50px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(128, 128, 128, 0.5);
+  border-radius: 0.8rem;
+  width: 600px;
+  height: 600px;
+}
+.fully-n .fully h2 {
+  width: 483px;
+  color: #403f3f;
+  text-align: center;
+}
+.fully-n .fully img {
+  height: 300px;
+}
+.practic {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.practic .el {
+  background-color: rgba(128, 128, 128, 0.5);
+  width: 500px;
+  align-self: center;
+  padding: 50px;
+  margin-top: 50px;
+  border-radius: 0.8rem;
+}
+.practic .el h2 {
+  color: rgba(43, 43, 43, 0.6);
+}
+.practic .practice {
+  display: flex;
+  align-self: center;
+}
+.practic .practice input {
+  border: none;
+  background-color: #0a0c16;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  width: 400px;
+  height: 100px;
+  font-size: 20pt;
+  text-transform: uppercase;
+}
+.practice-section {
+  margin-top: 100px;
+  display: flex;
+  flex-flow: column;
+}
+.practice-section .practice-test {
+  width: 500px;
+  display: flex;
+  background: rgba(128, 128, 128, 0.5);
+  border-radius: 0.8rem;
+  flex-flow: column;
+  align-self: center;
+  padding: 25px 25px 0;
+  /* сверху | горизонтально | снизу */
+}
+.practice-section .practice-test ol {
+  color: rgba(43, 43, 43, 0.6);
+  font-size: 15pt;
+}
+.practice-section .practice-test ol li {
+  color: #2B2B2B;
+  font-weight: 800;
+  font-style: italic;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+.practice-section .practice-test .one {
+  background-color: #fafafa;
+  border: 0;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  transition: 0.3s box-shadow;
+  width: 300px;
+}
+.practice-section .practice-test .btn {
+  margin-top: 25px;
+  padding: 25px;
+  border: none;
+  background-color: #3F51B5;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  width: 500px;
+  margin-left: -25px;
+  font-size: 15pt;
+}

@@ -1,0 +1,59 @@
+.register,
+.login {
+  /* Full-width input fields */
+  /* Overwrite default styles of hr */
+  /* Set a style for the submit/register button */
+  /* Add a blue text color to links */
+  /* Set a grey background color and center the text of the "sign in" section */
+}
+.register .container,
+.login .container {
+  padding: 16px;
+}
+.register input[type=text],
+.login input[type=text],
+.register input[type=password],
+.login input[type=password] {
+  width: 100%;
+  padding: 15px 0px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+.register input[type=text]:focus,
+.login input[type=text]:focus,
+.register input[type=password]:focus,
+.login input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.register form,
+.login form {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.register .btn,
+.login .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.register .btn:hover,
+.login .btn:hover {
+  opacity: 1;
+}
+.register a,
+.login a {
+  color: dodgerblue;
+}
+.register .signin,
+.login .signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
